@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+.input{
+    text-align: center;
+    margin-top: 20px;
+  
+}
+.button{
+ 
+    color: red;
+    padding: 6px;
+
+    padding: 4px;
+}
+.input1{
+   
+    padding: 4px;
+
+}
+
+.App {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+   
+}
+
+.App .column {
+    width: 30%;
+    height: 120px
+    text-
+}
+.top{
+    background-color: rgb(221, 29, 29);
+    color: white;
+    margin-bottom: -4px;
+    padding: 4px;
+
+}
+
+.droppable-col {
+    width: 100%;
+   
+   border: 1px solid black;
+    padding: 10px 10px 0 10px;
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+    height: 470px;
+    
+
+}
+
+.item {
+    margin-bottom: 10px;
+    background-color: gray;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 7px;
+    text-align: left;
+}
+
+.item.dragging {
+    background-color: coral;
+}
